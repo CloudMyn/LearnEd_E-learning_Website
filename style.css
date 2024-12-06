@@ -1349,3 +1349,6 @@ footer .btn:hover {
 .score strong {
     font-size: 25px;
 }
+.quiss-options input[type="radio"] {
+    margin-right: 5px;
+}

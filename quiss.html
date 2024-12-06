@@ -55,33 +55,42 @@
             </ul>
         </div>
     </header>
+
+    <style>
+        .selected-option {
+            color: #5fb7ff;
+        }
+    </style>
+
     <div class="diffSection" id="contactus_section">
         <center>
             <p style="font-size: 50px; padding: 100px">Pertanyaan #1</p>
         </center>
         <div class="csec"></div>
         <div class="back-contact">
-            <div class="cc" style="width: 560px;">
+            <form class="cc" style="width: 560px;">
                 <div>
                     <h2>Apa Huruf Pertama Dari Aksara Lontara?</h2>
                     <div class="quiss-options">
                         <div>
-                            <span class="label">A ) . </span>
-                            <span class="answer font-lontara">K</span>
+                            <input type="radio" id="a1" name="answer" value="A">
+                            <label class="label" for="a1">A ) . </label>
+                            <label class="answer font-lontara" for="a1">K</label>
                         </div>
                         <div>
-                            <span class="label">B ) . </span>
-                            <span class="answer font-lontara">C</span>
+                            <input type="radio" id="B1" name="answer" value="A">
+                            <label class="label" for="B1">B ) . </label>
+                            <label class="answer font-lontara" for="B1">C</label>
                         </div>
-
                         <div>
-                            <span class="label">C ) . </span>
-                            <span class="answer">Tidak Ada Benar</span>
+                            <input type="radio" id="C1" name="answer" value="A">
+                            <label class="label" for="C1">C ) . </label>
+                            <label class="answer font-lontara" for="C1">N</label>
                         </div>
-
                         <div>
-                            <span class="label">D ) . </span>
-                            <span class="answer font-lontara">N</span>
+                            <input type="radio" id="D1" name="answer" value="A">
+                            <label class="label" for="D1">D ) . </label>
+                            <label class="answer" for="D1">Tidak Ada</label>
                         </div>
                     </div>
                 </div>
@@ -89,10 +98,9 @@
                     <a href="#" class="btn-quiss q-danger">Kembali</a>
                     <a href="/quiss_success.html" class="btn-quiss q-success">Selanjutnya</a>
                 </div>
-            </div>
+                </fo>
         </div>
     </div>
-
 
     <!-- FOOTER -->
     <footer>
